@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #023047;
+    background: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.10rem;
+    margin: 0.8rem 0;
+}
+
+
+.btn {
+    background: #023047;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #fb8500;
+}
+
+.container {
+    background: #fff;
+    max-width: 930px;
+    width: 100%;
+    padding: 3rem 5rem;
+    margin: 5rem auto;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 5px 3px 2px #023047;
+}
+
+/* card */
+.card #about {
+    text-align: center;
+    padding: 0 10rem;
+}
+
+.card #about h1 {
+    font-weight: 500;
+}
+
+.card #about p {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.source {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.source p {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+}
+
+.source i {
+    margin-right: 0.5rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+.user-info {
+    margin: 0 1rem;
+}
